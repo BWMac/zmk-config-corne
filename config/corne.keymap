@@ -27,12 +27,12 @@
 // |  ALT |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BKSP | 
 // | CTRL |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  '   |
 // | GUI |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | ESC  |
-//                    | LWR | SHFT | SPC |   | ENT | TAB  | RSE |
+//                    | LWR | SHFT | ENT |   | SPC | TAB  | RSE |
                         bindings = <
    &kp LALT   &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &kp BSPC
    &kp LCTRL &kp A &kp S &kp D &kp F &kp G   &kp H &kp J  &kp K     &kp L   &kp SEMI &kp SQT
    &kp LGUI &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp ESC
-                    &mo 1 &td0 &kp SPACE   &kp ENTER &kp TAB &mo 2
+                    &mo 1 &td0 &kp ENTER   &kp SPACE &kp TAB &mo 2
                         >;
                 };
 
@@ -41,12 +41,12 @@
 // |  ALT |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  |  \   |
 // | CTRL |  1  |  2  |  3  |  4  |  5  |   |  -  |  =  |  `  |  [  |  ]  |  "|" |
 // | GUI |  6  |  7  |  8  |  9  |  0  |   |  _  |  +  |  ~  |  {  |  }  | ESC  |
-//                    |    | SHFT | SPC |   | ENT | TAB  |    |
+//                    |    | SHFT | ENT |   | SPC | TAB  |    |
                         bindings = <
    &kp LALT   &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT   &kp CARET  &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR &kp BSLH
    &kp LCTRL &kp N1   &kp N2 &kp N3   &kp N4   &kp N5      &kp MINUS  &kp EQUAL &kp GRAVE       &kp LBKT &kp RBKT &kp PIPE
    &kp GUI &kp N6   &kp N7 &kp N8   &kp N9   &kp N0      &kp UNDER  &kp PLUS  &kp TILDE       &kp LBRC &kp RBRC &kp &trans
-                    	&trans &kp LSHFT  &kp ENTER     &kp SPACE  &kp TAB  &trans
+                    	&trans &trans  &trans     &trans  &trans  &trans
                         >;
                 };
 
